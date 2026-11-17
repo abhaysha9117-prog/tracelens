@@ -1,0 +1,19 @@
+{
+  "name": "tracelens",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A privacy-first browser tool for exploring image-origin signals.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "onnxruntime-web": "1.31.1"
+  },
+  "devDependencies": {
+    "vite": "^6.4.1"
+  }
+}
